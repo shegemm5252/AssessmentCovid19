@@ -1,0 +1,1957 @@
+[
+  {
+    "areaCode": "S12000033",
+    "areaName": "Aberdeen City",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000034",
+    "areaName": "Aberdeenshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000223",
+    "areaName": "Adur",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000026",
+    "areaName": "Allerdale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000032",
+    "areaName": "Amber Valley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000041",
+    "areaName": "Angus",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000035",
+    "areaName": "Argyll and Bute",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000224",
+    "areaName": "Arun",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000170",
+    "areaName": "Ashfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000105",
+    "areaName": "Ashford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000004",
+    "areaName": "Aylesbury Vale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000200",
+    "areaName": "Babergh",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000002",
+    "areaName": "Barking and Dagenham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000003",
+    "areaName": "Barnet",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000016",
+    "areaName": "Barnsley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000027",
+    "areaName": "Barrow-in-Furness",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000066",
+    "areaName": "Basildon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000084",
+    "areaName": "Basingstoke and Deane",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000171",
+    "areaName": "Bassetlaw",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000022",
+    "areaName": "Bath and North East Somerset",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000055",
+    "areaName": "Bedford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000004",
+    "areaName": "Bexley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000025",
+    "areaName": "Birmingham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000129",
+    "areaName": "Blaby",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000008",
+    "areaName": "Blackburn with Darwen",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000009",
+    "areaName": "Blackpool",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000033",
+    "areaName": "Bolsover",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000001",
+    "areaName": "Bolton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000136",
+    "areaName": "Boston",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000058",
+    "areaName": "Bournemouth, Christchurch and Poole",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000036",
+    "areaName": "Bracknell Forest",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000032",
+    "areaName": "Bradford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000067",
+    "areaName": "Braintree",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000143",
+    "areaName": "Breckland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000005",
+    "areaName": "Brent",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000068",
+    "areaName": "Brentwood",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000043",
+    "areaName": "Brighton and Hove",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000023",
+    "areaName": "Bristol, City of",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000144",
+    "areaName": "Broadland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000006",
+    "areaName": "Bromley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000234",
+    "areaName": "Bromsgrove",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000095",
+    "areaName": "Broxbourne",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000172",
+    "areaName": "Broxtowe",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000002",
+    "areaName": "Buckinghamshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000117",
+    "areaName": "Burnley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000002",
+    "areaName": "Bury",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000033",
+    "areaName": "Calderdale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000008",
+    "areaName": "Cambridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000003",
+    "areaName": "Cambridgeshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E09000007",
+    "areaName": "Camden",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000192",
+    "areaName": "Cannock Chase",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000106",
+    "areaName": "Canterbury",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000028",
+    "areaName": "Carlisle",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000069",
+    "areaName": "Castle Point",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000056",
+    "areaName": "Central Bedfordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000130",
+    "areaName": "Charnwood",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000070",
+    "areaName": "Chelmsford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000078",
+    "areaName": "Cheltenham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000177",
+    "areaName": "Cherwell",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000049",
+    "areaName": "Cheshire East",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000050",
+    "areaName": "Cheshire West and Chester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000034",
+    "areaName": "Chesterfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000225",
+    "areaName": "Chichester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000005",
+    "areaName": "Chiltern",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000118",
+    "areaName": "Chorley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000036",
+    "areaName": "City of Edinburgh",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000001",
+    "areaName": "City of London",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000005",
+    "areaName": "Clackmannanshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000071",
+    "areaName": "Colchester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000013",
+    "areaName": "Comhairle nan Eilean Siar",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000029",
+    "areaName": "Copeland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000150",
+    "areaName": "Corby",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000052",
+    "areaName": "Cornwall and Isles of Scilly",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000079",
+    "areaName": "Cotswold",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000047",
+    "areaName": "County Durham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000026",
+    "areaName": "Coventry",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000163",
+    "areaName": "Craven",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000226",
+    "areaName": "Crawley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000008",
+    "areaName": "Croydon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000006",
+    "areaName": "Cumbria",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000096",
+    "areaName": "Dacorum",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000005",
+    "areaName": "Darlington",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000107",
+    "areaName": "Dartford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000151",
+    "areaName": "Daventry",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000015",
+    "areaName": "Derby",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000007",
+    "areaName": "Derbyshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000035",
+    "areaName": "Derbyshire Dales",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000008",
+    "areaName": "Devon",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E08000017",
+    "areaName": "Doncaster",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000059",
+    "areaName": "Dorset",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000108",
+    "areaName": "Dover",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000027",
+    "areaName": "Dudley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000006",
+    "areaName": "Dumfries and Galloway",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000042",
+    "areaName": "Dundee City",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000009",
+    "areaName": "Ealing",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000008",
+    "areaName": "East Ayrshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000061",
+    "areaName": "Eastbourne",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000009",
+    "areaName": "East Cambridgeshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000040",
+    "areaName": "East Devon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000045",
+    "areaName": "East Dunbartonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000085",
+    "areaName": "East Hampshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000242",
+    "areaName": "East Hertfordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000086",
+    "areaName": "Eastleigh",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000137",
+    "areaName": "East Lindsey",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000010",
+    "areaName": "East Lothian",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000004",
+    "areaName": "East Midlands",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E07000152",
+    "areaName": "East Northamptonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000006",
+    "areaName": "East of England",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "S12000011",
+    "areaName": "East Renfrewshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000011",
+    "areaName": "East Riding of Yorkshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000193",
+    "areaName": "East Staffordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000244",
+    "areaName": "East Suffolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000011",
+    "areaName": "East Sussex",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000030",
+    "areaName": "Eden",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000207",
+    "areaName": "Elmbridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000010",
+    "areaName": "Enfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E92000001",
+    "areaName": "England",
+    "areaType": "nation"
+  },
+  {
+    "areaCode": "E07000072",
+    "areaName": "Epping Forest",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000208",
+    "areaName": "Epsom and Ewell",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000036",
+    "areaName": "Erewash",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000012",
+    "areaName": "Essex",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000041",
+    "areaName": "Exeter",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000014",
+    "areaName": "Falkirk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000087",
+    "areaName": "Fareham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000010",
+    "areaName": "Fenland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000047",
+    "areaName": "Fife",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000112",
+    "areaName": "Folkestone and Hythe",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000080",
+    "areaName": "Forest of Dean",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000119",
+    "areaName": "Fylde",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000037",
+    "areaName": "Gateshead",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000173",
+    "areaName": "Gedling",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000049",
+    "areaName": "Glasgow City",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000081",
+    "areaName": "Gloucester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000013",
+    "areaName": "Gloucestershire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000088",
+    "areaName": "Gosport",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000109",
+    "areaName": "Gravesham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000145",
+    "areaName": "Great Yarmouth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000011",
+    "areaName": "Greenwich",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000209",
+    "areaName": "Guildford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000012",
+    "areaName": "Hackney and City of London",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000006",
+    "areaName": "Halton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000164",
+    "areaName": "Hambleton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000013",
+    "areaName": "Hammersmith and Fulham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000014",
+    "areaName": "Hampshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000131",
+    "areaName": "Harborough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000014",
+    "areaName": "Haringey",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000073",
+    "areaName": "Harlow",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000165",
+    "areaName": "Harrogate",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000015",
+    "areaName": "Harrow",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000089",
+    "areaName": "Hart",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000001",
+    "areaName": "Hartlepool",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000062",
+    "areaName": "Hastings",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000090",
+    "areaName": "Havant",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000016",
+    "areaName": "Havering",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000019",
+    "areaName": "Herefordshire, County of",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000015",
+    "areaName": "Hertfordshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000098",
+    "areaName": "Hertsmere",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000017",
+    "areaName": "Highland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000037",
+    "areaName": "High Peak",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000017",
+    "areaName": "Hillingdon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000132",
+    "areaName": "Hinckley and Bosworth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000227",
+    "areaName": "Horsham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000018",
+    "areaName": "Hounslow",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000011",
+    "areaName": "Huntingdonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000120",
+    "areaName": "Hyndburn",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000018",
+    "areaName": "Inverclyde",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000202",
+    "areaName": "Ipswich",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000046",
+    "areaName": "Isle of Wight",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000053",
+    "areaName": "Isles of Scilly",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000019",
+    "areaName": "Islington",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000020",
+    "areaName": "Kensington and Chelsea",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000016",
+    "areaName": "Kent",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000153",
+    "areaName": "Kettering",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000146",
+    "areaName": "King's Lynn and West Norfolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000010",
+    "areaName": "Kingston upon Hull, City of",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000021",
+    "areaName": "Kingston upon Thames",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000034",
+    "areaName": "Kirklees",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000011",
+    "areaName": "Knowsley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000022",
+    "areaName": "Lambeth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000017",
+    "areaName": "Lancashire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000121",
+    "areaName": "Lancaster",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000035",
+    "areaName": "Leeds",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000016",
+    "areaName": "Leicester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000018",
+    "areaName": "Leicestershire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000063",
+    "areaName": "Lewes",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000023",
+    "areaName": "Lewisham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000194",
+    "areaName": "Lichfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000138",
+    "areaName": "Lincoln",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000019",
+    "areaName": "Lincolnshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E08000012",
+    "areaName": "Liverpool",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000007",
+    "areaName": "London",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E06000032",
+    "areaName": "Luton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000110",
+    "areaName": "Maidstone",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000074",
+    "areaName": "Maldon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000235",
+    "areaName": "Malvern Hills",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000003",
+    "areaName": "Manchester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000174",
+    "areaName": "Mansfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000035",
+    "areaName": "Medway",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000133",
+    "areaName": "Melton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000187",
+    "areaName": "Mendip",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000024",
+    "areaName": "Merton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000042",
+    "areaName": "Mid Devon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000002",
+    "areaName": "Middlesbrough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000019",
+    "areaName": "Midlothian",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000203",
+    "areaName": "Mid Suffolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000228",
+    "areaName": "Mid Sussex",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000042",
+    "areaName": "Milton Keynes",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000210",
+    "areaName": "Mole Valley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000020",
+    "areaName": "Moray",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000013",
+    "areaName": "Na h-Eileanan Siar",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000175",
+    "areaName": "Newark and Sherwood",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000195",
+    "areaName": "Newcastle-under-Lyme",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000021",
+    "areaName": "Newcastle upon Tyne",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000091",
+    "areaName": "New Forest",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000025",
+    "areaName": "Newham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000020",
+    "areaName": "Norfolk",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000154",
+    "areaName": "Northampton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000021",
+    "areaName": "Northamptonshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "S12000021",
+    "areaName": "North Ayrshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000043",
+    "areaName": "North Devon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000001",
+    "areaName": "North East",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E07000038",
+    "areaName": "North East Derbyshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000012",
+    "areaName": "North East Lincolnshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "N92000002",
+    "areaName": "Northern Ireland",
+    "areaType": "nation"
+  },
+  {
+    "areaCode": "E07000099",
+    "areaName": "North Hertfordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000139",
+    "areaName": "North Kesteven",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000050",
+    "areaName": "North Lanarkshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000013",
+    "areaName": "North Lincolnshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000147",
+    "areaName": "North Norfolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000024",
+    "areaName": "North Somerset",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000022",
+    "areaName": "North Tyneside",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000057",
+    "areaName": "Northumberland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000218",
+    "areaName": "North Warwickshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000002",
+    "areaName": "North West",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E07000134",
+    "areaName": "North West Leicestershire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000023",
+    "areaName": "North Yorkshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000148",
+    "areaName": "Norwich",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000018",
+    "areaName": "Nottingham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000024",
+    "areaName": "Nottinghamshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000219",
+    "areaName": "Nuneaton and Bedworth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000135",
+    "areaName": "Oadby and Wigston",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000004",
+    "areaName": "Oldham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000023",
+    "areaName": "Orkney Islands",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000178",
+    "areaName": "Oxford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000025",
+    "areaName": "Oxfordshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000122",
+    "areaName": "Pendle",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000048",
+    "areaName": "Perth and Kinross",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000031",
+    "areaName": "Peterborough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000026",
+    "areaName": "Plymouth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000044",
+    "areaName": "Portsmouth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000123",
+    "areaName": "Preston",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000038",
+    "areaName": "Reading",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000026",
+    "areaName": "Redbridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000003",
+    "areaName": "Redcar and Cleveland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000236",
+    "areaName": "Redditch",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000211",
+    "areaName": "Reigate and Banstead",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000038",
+    "areaName": "Renfrewshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000124",
+    "areaName": "Ribble Valley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000166",
+    "areaName": "Richmondshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000027",
+    "areaName": "Richmond upon Thames",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000005",
+    "areaName": "Rochdale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000075",
+    "areaName": "Rochford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000125",
+    "areaName": "Rossendale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000064",
+    "areaName": "Rother",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000018",
+    "areaName": "Rotherham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000220",
+    "areaName": "Rugby",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000212",
+    "areaName": "Runnymede",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000176",
+    "areaName": "Rushcliffe",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000092",
+    "areaName": "Rushmoor",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000017",
+    "areaName": "Rutland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000167",
+    "areaName": "Ryedale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000006",
+    "areaName": "Salford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000028",
+    "areaName": "Sandwell",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000168",
+    "areaName": "Scarborough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S92000003",
+    "areaName": "Scotland",
+    "areaType": "nation"
+  },
+  {
+    "areaCode": "S12000026",
+    "areaName": "Scottish Borders",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000188",
+    "areaName": "Sedgemoor",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000014",
+    "areaName": "Sefton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000169",
+    "areaName": "Selby",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000111",
+    "areaName": "Sevenoaks",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000019",
+    "areaName": "Sheffield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000027",
+    "areaName": "Shetland Islands",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000051",
+    "areaName": "Shropshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000039",
+    "areaName": "Slough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000029",
+    "areaName": "Solihull",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000027",
+    "areaName": "Somerset",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000246",
+    "areaName": "Somerset West and Taunton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000045",
+    "areaName": "Southampton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000028",
+    "areaName": "South Ayrshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000006",
+    "areaName": "South Bucks",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000012",
+    "areaName": "South Cambridgeshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000039",
+    "areaName": "South Derbyshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000008",
+    "areaName": "South East",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E06000033",
+    "areaName": "Southend-on-Sea",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000025",
+    "areaName": "South Gloucestershire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000044",
+    "areaName": "South Hams",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000140",
+    "areaName": "South Holland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000141",
+    "areaName": "South Kesteven",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000031",
+    "areaName": "South Lakeland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000029",
+    "areaName": "South Lanarkshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000149",
+    "areaName": "South Norfolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000155",
+    "areaName": "South Northamptonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000179",
+    "areaName": "South Oxfordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000126",
+    "areaName": "South Ribble",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000189",
+    "areaName": "South Somerset",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000196",
+    "areaName": "South Staffordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000023",
+    "areaName": "South Tyneside",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000028",
+    "areaName": "Southwark",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000009",
+    "areaName": "South West",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E07000213",
+    "areaName": "Spelthorne",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000197",
+    "areaName": "Stafford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000028",
+    "areaName": "Staffordshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000198",
+    "areaName": "Staffordshire Moorlands",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000240",
+    "areaName": "St Albans",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000243",
+    "areaName": "Stevenage",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000013",
+    "areaName": "St. Helens",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000030",
+    "areaName": "Stirling",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000007",
+    "areaName": "Stockport",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000004",
+    "areaName": "Stockton-on-Tees",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000021",
+    "areaName": "Stoke-on-Trent",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000221",
+    "areaName": "Stratford-on-Avon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000082",
+    "areaName": "Stroud",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000029",
+    "areaName": "Suffolk",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E08000024",
+    "areaName": "Sunderland",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000030",
+    "areaName": "Surrey",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000214",
+    "areaName": "Surrey Heath",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000029",
+    "areaName": "Sutton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000113",
+    "areaName": "Swale",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000030",
+    "areaName": "Swindon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000008",
+    "areaName": "Tameside",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000199",
+    "areaName": "Tamworth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000215",
+    "areaName": "Tandridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000045",
+    "areaName": "Teignbridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000020",
+    "areaName": "Telford and Wrekin",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000076",
+    "areaName": "Tendring",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000093",
+    "areaName": "Test Valley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000083",
+    "areaName": "Tewkesbury",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000114",
+    "areaName": "Thanet",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000102",
+    "areaName": "Three Rivers",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000034",
+    "areaName": "Thurrock",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000115",
+    "areaName": "Tonbridge and Malling",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000027",
+    "areaName": "Torbay",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000046",
+    "areaName": "Torridge",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000030",
+    "areaName": "Tower Hamlets",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000009",
+    "areaName": "Trafford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000116",
+    "areaName": "Tunbridge Wells",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "K02000001",
+    "areaName": "United Kingdom",
+    "areaType": "overview"
+  },
+  {
+    "areaCode": "E07000077",
+    "areaName": "Uttlesford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000180",
+    "areaName": "Vale of White Horse",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000036",
+    "areaName": "Wakefield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "W92000004",
+    "areaName": "Wales",
+    "areaType": "nation"
+  },
+  {
+    "areaCode": "E08000030",
+    "areaName": "Walsall",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000031",
+    "areaName": "Waltham Forest",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E09000032",
+    "areaName": "Wandsworth",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000007",
+    "areaName": "Warrington",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000222",
+    "areaName": "Warwick",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000031",
+    "areaName": "Warwickshire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000103",
+    "areaName": "Watford",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000216",
+    "areaName": "Waverley",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000065",
+    "areaName": "Wealden",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000156",
+    "areaName": "Wellingborough",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000241",
+    "areaName": "Welwyn Hatfield",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000037",
+    "areaName": "West Berkshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000047",
+    "areaName": "West Devon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000039",
+    "areaName": "West Dunbartonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000127",
+    "areaName": "West Lancashire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000142",
+    "areaName": "West Lindsey",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "S12000040",
+    "areaName": "West Lothian",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000005",
+    "areaName": "West Midlands",
+    "areaType": "region"
+  },
+  {
+    "areaCode": "E09000033",
+    "areaName": "Westminster",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000062",
+    "areaName": "West Northamptonshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000181",
+    "areaName": "West Oxfordshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000245",
+    "areaName": "West Suffolk",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000032",
+    "areaName": "West Sussex",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E08000010",
+    "areaName": "Wigan",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000054",
+    "areaName": "Wiltshire",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000094",
+    "areaName": "Winchester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000040",
+    "areaName": "Windsor and Maidenhead",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000015",
+    "areaName": "Wirral",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000217",
+    "areaName": "Woking",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000041",
+    "areaName": "Wokingham",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E08000031",
+    "areaName": "Wolverhampton",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000237",
+    "areaName": "Worcester",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E10000034",
+    "areaName": "Worcestershire",
+    "areaType": "utla"
+  },
+  {
+    "areaCode": "E07000229",
+    "areaName": "Worthing",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000238",
+    "areaName": "Wychavon",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000007",
+    "areaName": "Wycombe",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000128",
+    "areaName": "Wyre",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E07000239",
+    "areaName": "Wyre Forest",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E06000014",
+    "areaName": "York",
+    "areaType": "ltla"
+  },
+  {
+    "areaCode": "E12000003",
+    "areaName": "Yorkshire and The Humber",
+    "areaType": "region"
+  }
+]

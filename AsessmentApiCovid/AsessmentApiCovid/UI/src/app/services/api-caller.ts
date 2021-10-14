@@ -3,14 +3,14 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { NotificationService } from './notification.service';
 import { catchError } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ApiCallService{
-  url = 'https://localhost:44385';
 
-  baseUrl = `${this.url}/api/CovidTracker/`;
+  baseUrl = `${environment.url}/api/CovidTracker/`;
 
   constructor(private http: HttpClient, private notifyService: NotificationService, private _router: Router) { }
 

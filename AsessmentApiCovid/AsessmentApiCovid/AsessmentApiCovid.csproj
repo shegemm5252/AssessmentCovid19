@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UI\**" />
+    <Content Remove="UI\**" />
+    <EmbeddedResource Remove="UI\**" />
+    <None Remove="UI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -16,74 +23,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.2" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="UI\.git\COMMIT_EDITMSG" />
-    <None Include="UI\.git\config" />
-    <None Include="UI\.git\description" />
-    <None Include="UI\.git\HEAD" />
-    <None Include="UI\.git\hooks\applypatch-msg.sample" />
-    <None Include="UI\.git\hooks\commit-msg.sample" />
-    <None Include="UI\.git\hooks\fsmonitor-watchman.sample" />
-    <None Include="UI\.git\hooks\post-update.sample" />
-    <None Include="UI\.git\hooks\pre-applypatch.sample" />
-    <None Include="UI\.git\hooks\pre-commit.sample" />
-    <None Include="UI\.git\hooks\pre-merge-commit.sample" />
-    <None Include="UI\.git\hooks\pre-push.sample" />
-    <None Include="UI\.git\hooks\pre-rebase.sample" />
-    <None Include="UI\.git\hooks\pre-receive.sample" />
-    <None Include="UI\.git\hooks\prepare-commit-msg.sample" />
-    <None Include="UI\.git\hooks\update.sample" />
-    <None Include="UI\.git\index" />
-    <None Include="UI\.git\info\exclude" />
-    <None Include="UI\.git\logs\HEAD" />
-    <None Include="UI\.git\logs\refs\heads\master" />
-    <None Include="UI\.git\objects\01\c13684a4be5aaa39d7df0297f0c4d69db6413e" />
-    <None Include="UI\.git\objects\03\711e5d92cb7d7cd21262d6cc863b41c05092e9" />
-    <None Include="UI\.git\objects\06\c734263e1716e120bbb2771845eca1ae74c055" />
-    <None Include="UI\.git\objects\0c\a58700fc0ae795c7f3ed3e209b8252c4140f06" />
-    <None Include="UI\.git\objects\14\d9b399b0f1dd7f31c0a347d8d5025760540f9d" />
-    <None Include="UI\.git\objects\2c\3ba2995c8510c02ca812f90280146738f162cf" />
-    <None Include="UI\.git\objects\36\12073bc31cd4c1f5d6cbb00318521e9a61bd8a" />
-    <None Include="UI\.git\objects\39\b800f789619f0fb8063aba2e05bd5a57850e57" />
-    <None Include="UI\.git\objects\50\193eb0f283fa7064c483c2d85a07c2190cceb5" />
-    <None Include="UI\.git\objects\52\7e49b27d2be3c4fa3d3fa32177ea04680191d7" />
-    <None Include="UI\.git\objects\59\d9a3a3e73ffc640517ef488f6f89d6270195d1" />
-    <None Include="UI\.git\objects\5f\41ef669487cf692645cfff23168fe6f0c7312d" />
-    <None Include="UI\.git\objects\62\310853ca5e5d82fe889a58603e5b0ae746ac8a" />
-    <None Include="UI\.git\objects\64\00fde7d544029c82e13d368a6b69d6664fe857" />
-    <None Include="UI\.git\objects\70\deae24fde24990ccf870779cbebccc20e775c0" />
-    <None Include="UI\.git\objects\7b\4f817adb754769ca126a939d48ac4b0850489d" />
-    <None Include="UI\.git\objects\7c\798cfff07e3edfa1532700adcf713ab17ff545" />
-    <None Include="UI\.git\objects\7e\eafdc65686328e95084ab2d7a63e6752d52b36" />
-    <None Include="UI\.git\objects\7f\5518cfdcaba5def011e9a19e9fea0c781d78e9" />
-    <None Include="UI\.git\objects\80\848532e47d58cc7a4b618f600b438960f9f045" />
-    <None Include="UI\.git\objects\86\d943a9b2e8f3bb69fbe37fd8363962646b1d92" />
-    <None Include="UI\.git\objects\8c\4ef3bbae3a0708a4c9cc0c7ad0518b82ef651a" />
-    <None Include="UI\.git\objects\90\d4ee0072ce3fc41812f8af910219f9eea3c3de" />
-    <None Include="UI\.git\objects\99\7406ad22c29aae95893fb3d666c30258a09537" />
-    <None Include="UI\.git\objects\a9\eaedc7492aa5ab5ed5a5825e1134bb797b8a00" />
-    <None Include="UI\.git\objects\ab\750b18e3f3d2af65a811237da02202ae542197" />
-    <None Include="UI\.git\objects\b1\2b4e1c852c135ff644e0eeac2a0bcb070b4e27" />
-    <None Include="UI\.git\objects\b6\8475e0fc0ce9d312147f19f0867a7aed41bcbc" />
-    <None Include="UI\.git\objects\c7\b673cf44b388e9989fe908b78d7d73cd2e1409" />
-    <None Include="UI\.git\objects\d5\64d0bc3dd917926892c55e3706cc116d5b165e" />
-    <None Include="UI\.git\objects\d9\2ff5d1b18bf7f0391add84df8a567b3950478e" />
-    <None Include="UI\.git\objects\e4\8d8c109d668d9b5c5f25e0c2831bbe48d3cc1d" />
-    <None Include="UI\.git\objects\e5\9e1d9ff8d8ff398c00d4b7666713053d9052f9" />
-    <None Include="UI\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
-    <None Include="UI\.git\objects\f1\768175902d83df881b33521991237abc98ef35" />
-    <None Include="UI\.git\objects\f7\58d9820d531b9c3d23543a80b8d968e463e747" />
-    <None Include="UI\.git\objects\f8\ea8383c80d3f0a55fc84469a00731e0d740989" />
-    <None Include="UI\.git\objects\fb\12acbd5c7a1831bca4ec8bdd1a59ca2bd9fe17" />
-    <None Include="UI\.git\refs\heads\master" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="UI\.git\objects\info\" />
-    <Folder Include="UI\.git\objects\pack\" />
-    <Folder Include="UI\.git\refs\tags\" />
   </ItemGroup>
 
 </Project>
