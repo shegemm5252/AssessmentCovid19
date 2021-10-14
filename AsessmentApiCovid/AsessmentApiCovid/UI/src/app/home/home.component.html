@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="transContainer flx-row">
+    <div class="trans flx-row" *ngFor="let item of listOfTransaction">
+      <div class="trans-text">
+        <div class="txt">{{item.title}}</div>
+        <div>{{item.value}}</div>
+      </div>
+      <img src="assets/icons/transaction.svg" alt="">
+    </div>
+
+  </div>
+  <div>
+    <h1>UK Summary</h1>
+  </div>
+  <span>The official UK government website for data and insights on coronavirus (COVID-19).</span>
+  <div class="ppl-vaccinated" fxLayout="row wrap">
+    <div fxFlex="45">
+      <h4>Vacinations</h4>
+      <h3>People Vaccinated</h3>
+      <h5>Up to and including 8 October 2021</h5>
+    </div>
+    <div fxFlex="auto" fxLayout="row wrap" class="details">
+      <div fxFlex="auto">
+        <div fxLayout="row wrap">
+          <div class="spliter" fxFlex="auto">
+            <span>Daily — 1st dose</span>
+            <h2>{{firstDailyDoseSummary}}</h2>
+          </div>
+          <div class="spliter" fxFlex="auto">
+            <span>Daily — 2nd dose</span>
+            <h2> {{secondDailyDoseSummary}}</h2>
+          </div>
+        </div>
+
+        <div fxLayout="row wrap" style="margin-top: 20px;">
+          <div class="spliter" fxFlex="auto">
+            <span>Month — 1st dose</span>
+            <h2> {{totalMonthFirstDoseSummary}}</h2>
+          </div>
+          <div class="spliter" fxFlex="auto">
+            <span>Month — 2nd dose</span>
+            <h2> {{totalMonthSecondSummary}}</h2>
+          </div>
+        </div>
+
+        <div fxLayout="row wrap" style="margin-top: 20px;">
+          <div class="spliter" fxFlex="auto">
+            <span>Total — 1st dose</span>
+            <h2>{{totalFirstDoseSummary}}</h2>
+          </div>
+          <div class="spliter" fxFlex="auto">
+            <span>Total — 2nd dose</span>
+            <h2>{{totalSecondDoseSummary}}</h2>
+          </div>
+        </div>
+      </div>
+
+      <div fxFlex="30">
+
+      </div>
+    </div>
+
+  </div>
+
+  <div echarts [options]="options" [loading]="isLoading" theme="macarons" class="demo-chart"></div>
+  <!-- <div style="display: block;">
+    <canvas baseChart width="400" height="400" [datasets]="lineChartData" [labels]="lineChartLabels"
+      [options]="lineChartOptions" [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+      [plugins]="lineChartPlugins"></canvas>
+  </div> -->
+</div>

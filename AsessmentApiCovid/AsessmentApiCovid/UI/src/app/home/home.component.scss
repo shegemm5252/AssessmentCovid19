@@ -1,0 +1,81 @@
+.container {
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 125px);
+  margin-top: 10px;
+  div {
+    h1 {
+      margin: 0px;
+    }
+  }
+
+  span {
+    margin-top: -10px;
+  }
+
+}
+
+.transContainer {
+  width: 100%;
+}
+
+.flx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.trans {
+  width: 260px;
+  height: 75px;
+  background: #ffffff;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 18px;
+  margin: 0px 9px;
+}
+
+.txt {
+  font-family: "Segoe UI";
+  font-size: 12px;
+  line-height: 16px;
+  color: #787c90;
+}
+
+.trans-text {
+  margin-right: 17px;
+}
+
+.ppl-vaccinated {
+  height: auto;
+  width: 100%;
+  background-color: rgb(237, 236, 240);
+  margin-top: 20px;
+  padding: 20px;
+
+  h4 {
+    margin: 0px;
+    color: rgb(159, 159, 160);
+  }
+
+  h3 {
+    margin: 0px;
+  }
+
+  h5 {
+    margin: 0px;
+  }
+
+  .details {
+    padding-top: 20px;
+
+    .spliter {
+      height: 50px;
+
+      h2 {
+        font-weight: 500;
+        text-decoration: dotted;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.container-side {
+  position: fixed;
+  height: calc(100vh - 50px);
+  top: 75px;
+  background: #ffffff;
+}
+
+.btn-container {
+  margin: 31px;
+}
+
+.btn-success {
+  background: #27ae60;
+  border-radius: 30px;
+  width: 163px;
+  height: 33px;
+  border: 0;
+}
+
+.btn-success-txt {
+  font: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+  letter-spacing: 0.2px;
+  text-align: Center;
+  color: #ffffff;
+}
+
+.menu-label {
+  margin-left: 42px;
+}
+
+.text-color {
+  color: #647787;
+}
+
+.txt-font {
+  font-family: "Segoe UI";
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.menu {
+  // width: 200px;
+  padding: 11px 42px;
+}
+
+.menu-color {
+  background: #1876f030;
+}
+
+.m-b-14 {
+  margin-bottom: 14px;
+}
+
+.m-b-35 {
+  margin-bottom: 35px;
+}
+
+.menu-sub-text {
+  display: flex;
+  flex-direction: row;
+}

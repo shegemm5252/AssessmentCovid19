@@ -1,0 +1,17 @@
+<div class="container-side" fxFlex="16" fxFlex.sm="12">
+  <div class="btn-container">
+    <button class="btn-success btn-success-txt">
+    DAILY UPDATE
+    </button>
+  </div>
+  <div class="m-b-35" *ngFor="let item of ListMenu">
+    <div class="text-color txt-font menu-label m-b-14">{{item.name}}</div>
+    <div class="menu text-color txt-font menu-sub-text" [ngClass]="{'menu-color':sub.active == true}"
+      *ngFor="let sub of item.menu">
+      <img [src]="sub.icon" style="margin-right: 10px;">
+      <div>
+        {{sub.title}}
+      </div>
+    </div>
+  </div>
+</div>
