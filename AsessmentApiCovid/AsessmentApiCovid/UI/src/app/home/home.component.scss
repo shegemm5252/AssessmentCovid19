@@ -3,20 +3,30 @@
   overflow-y: auto;
   height: calc(100vh - 125px);
   margin-top: 10px;
+
   div {
     h1 {
       margin: 0px;
     }
+
+
   }
 
   span {
     margin-top: -10px;
   }
 
+
+
 }
 
 .transContainer {
   width: 100%;
+}
+
+::ng-deep .mat-select-value {
+  font-size: 16px !important;
+  font-weight: 500;
 }
 
 .flx-row {
@@ -78,4 +88,8 @@
       }
     }
   }
+}
+
+table {
+  width: 100%;
 }

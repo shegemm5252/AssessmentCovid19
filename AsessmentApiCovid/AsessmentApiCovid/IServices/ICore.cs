@@ -8,11 +8,11 @@ namespace AsessmentApiCovid.IServices
 {
     public interface ICore
     {
-        public Task<Responses<object>> SummaryFirstDose();
+        public Task<Responses<object>> SummaryFirstDose(string code);
 
-        public Task<Responses<object>> SummaryDailyFirstDose(DateTime date);
+        public Task<Responses<object>> SummaryDailyFirstDose(string code, DateTime date);
 
-        public Task<Responses<object>> SummaryDailySecondDose(DateTime date);
+        public Task<Responses<object>> SummaryDailySecondDose(string code, DateTime date);
 
         public Task<Responses<object>> SummaryMonthFirstDose(int month, int year);
 
@@ -22,7 +22,7 @@ namespace AsessmentApiCovid.IServices
 
         public Task<Responses<object>> SummarySecondDoseByNation(string nationID);
 
-        public Task<Responses<object>> SummarySecondDose();
+        public Task<Responses<object>> SummarySecondDose(string code);
 
         public Task<Responses<object>> ListFirstDose();
 

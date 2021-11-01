@@ -10,12 +10,12 @@ export class CoreService {
 
   constructor(private apiService: ApiCallService){}
 
-  SummaryForFirstDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryForFirstDose);
+  SummaryForFirstDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummaryForFirstDose, `code=${code}`);
   }
 
-  SummaryForSecondDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryForSecondDose);
+  SummaryForSecondDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummaryForSecondDose, `code=${code}`);
   }
 
   SummaryForFirstnationDose(areaCode: string): Observable<any>{
@@ -38,19 +38,51 @@ export class CoreService {
     return this.apiService.get(ApiManager.GetArea);
   }
 
-  SummaryDailyFirstDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryDailyFirstDose, `date=2021-10-08`);
+  SummaryDailyFirstDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummaryDailyFirstDose, `code=${code}&date=2021-10-08`);
   }
 
-  SummaryDailySecondDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryDailySecondDose, `date=2021-10-08`);
+  SummaryDailySecondDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummaryDailySecondDose, `code=${code}&date=2021-10-08`);
   }
+
+
+
+  SummarySecondDoseMonth(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummarySecondDoseMonth, `code=${code}&date=2021-10-08`);
+  }
+
+  SummaryFirstDoseMonth(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.SummaryFirstDoseMonth, `code=${code}&date=2021-10-08`);
+  }
+
+
 
   SummaryMonthFirstDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryMonthFirstDose, `year=2021&month=10`);
+    return this.apiService.get(ApiManager.SummaryMonthFirstDose, `date=2021-10-08`);
   }
 
   SummaryMonthSecondDose(): Observable<any>{
-    return this.apiService.get(ApiManager.SummaryMonthSecondDose, `year=2021&month=10`);
+    return this.apiService.get(ApiManager.SummaryMonthSecondDose, `date=2021-10-08`);
+  }
+
+  Nation(): Observable<any>{
+    return this.apiService.get(ApiManager.Nation);
+  }
+
+  GetVaccinatedDataFirsDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.GetVaccinatedDataFirsDose, `code=${code}`);
+  }
+
+  GetVaccinatedDataSecondDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.GetVaccinatedDataSecondDose, `code=${code}`);
+  }
+
+  GetSummaryVaccinatedDataFirstDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.GetSummaryVaccinatedDataFirstDose, `code=${code}`);
+  }
+
+  GetSummaryVaccinatedDataSecondDose(code: string): Observable<any>{
+    return this.apiService.get(ApiManager.GetSummaryVaccinatedDataSecondDose, `code=${code}`);
   }
 }

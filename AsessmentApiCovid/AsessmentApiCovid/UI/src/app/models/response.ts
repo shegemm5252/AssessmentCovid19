@@ -16,3 +16,8 @@ export class Responses<T>{
   }
 
 }
+
+export class Nation{
+  name: string;
+  id: string;
+}

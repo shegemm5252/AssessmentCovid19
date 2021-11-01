@@ -118,3 +118,6 @@ C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiC
 C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\obj\Debug\netcoreapp3.0\AsessmentApiCovid.csproj.CopyComplete
 C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\obj\Debug\netcoreapp3.0\AsessmentApiCovid.dll
 C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\obj\Debug\netcoreapp3.0\AsessmentApiCovid.pdb
+C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\bin\Debug\netcoreapp3.0\Data\JsonData\firstDosage.json
+C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\bin\Debug\netcoreapp3.0\Data\JsonData\Nations.json
+C:\Users\salak\source\repos\assessmentAPIcovid19\AsessmentApiCovid\AsessmentApiCovid\bin\Debug\netcoreapp3.0\Data\JsonData\secondDosage.json

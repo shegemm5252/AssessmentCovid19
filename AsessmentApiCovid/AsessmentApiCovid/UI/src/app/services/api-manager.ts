@@ -20,4 +20,19 @@ export class ApiManager{
    static SummaryMonthFirstDose = 'SummaryMonthFirstDose';
 
    static SummaryMonthSecondDose = 'SummaryMonthSecondDose';
+
+    static Nation = 'GetNation';
+
+    static GetVaccinatedDataFirsDose = 'GetVaccinatedDataFirsDose';
+
+    static GetVaccinatedDataSecondDose = 'GetVaccinatedDataSecondDose';
+
+    static GetSummaryVaccinatedDataFirstDose = 'GetSummaryVaccinatedDataFirstDose';
+
+    static GetSummaryVaccinatedDataSecondDose = 'GetSummaryVaccinatedDataSecondDose';
+
+    static SummarySecondDoseMonth = 'SummarySecondDoseMonth';
+
+    static SummaryFirstDoseMonth = 'SummaryFirstDoseMonth';
+
 }

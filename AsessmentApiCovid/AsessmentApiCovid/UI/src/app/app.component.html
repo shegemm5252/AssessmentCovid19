@@ -3,14 +3,15 @@
     <component-header></component-header>
   </div>
 
-  <div fxFlex="auto" fxLayout="row wrap" fxLayoutAlign="space-between stretch">
+  <!-- <div fxFlex="auto" fxLayout="row wrap" fxLayoutAlign="space-between stretch">
     <div fxFlex="none" [fxHide.xs]="true" >
       <app-side></app-side>
     </div>
     <div fxFlex="84" fxFlex.xs="grow" class="navBody">
       <router-outlet></router-outlet>
     </div>
-  </div>
+  </div> -->
+  <router-outlet></router-outlet>
   <!-- <div fxFlex="none" style="height: 40px;">
     <component-footer></component-footer>
   </div> -->

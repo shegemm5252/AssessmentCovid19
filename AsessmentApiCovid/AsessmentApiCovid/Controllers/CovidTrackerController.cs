@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AsessmentApiCovid.Data.Context;
 using AsessmentApiCovid.DTO;
 using AsessmentApiCovid.Services;
 using AsessmentApiCovid.Wrapper;
@@ -28,22 +29,23 @@ namespace AsessmentApiCovid.Controllers
 
         [HttpGet]
         [Route("SummaryForFirstDose")]
-        public Task<Responses<object>> SummaryFirstDose(){
-            return _Core.SummaryFirstDose();
+        public Task<Responses<object>> SummaryFirstDose(string code)
+        {
+            return _Core.SummaryFirstDose(code);
         }
 
         [HttpGet]
         [Route("SummaryDailyFirstDose")]
-        public Task<Responses<object>> SummaryDailyFirstDose(DateTime date)
+        public Task<Responses<object>> SummaryDailyFirstDose(string code,DateTime date)
         {
-            return _Core.SummaryDailyFirstDose(date);
+            return _Core.SummaryDailyFirstDose(code, date);
         }
 
         [HttpGet]
         [Route("SummaryDailySecondDose")]
-        public Task<Responses<object>> SummaryDailySecondDose(DateTime date)
+        public Task<Responses<object>> SummaryDailySecondDose(string code,DateTime date)
         {
-            return _Core.SummaryDailySecondDose(date);
+            return _Core.SummaryDailySecondDose(code, date);
         }
 
         [HttpGet]
@@ -62,9 +64,9 @@ namespace AsessmentApiCovid.Controllers
 
         [HttpGet]
         [Route("SummaryForSecondDose")]
-        public Task<Responses<object>> SummarySecondDose()
+        public Task<Responses<object>> SummarySecondDose(string code)
         {
-            return _Core.SummarySecondDose();
+            return _Core.SummarySecondDose(code);
         }
 
 
@@ -90,6 +92,27 @@ namespace AsessmentApiCovid.Controllers
         }
 
         [HttpGet]
+        [Route("SummarySecondDoseMonth")]
+        public Task<Responses<object>> SummarySecondDoseMonth(string code, DateTime date)
+        {
+            return _Core.SummarySecondDoseMonth(code, date);
+        }
+
+        [HttpGet]
+        [Route("SummaryFirstDoseMonth")]
+        public Task<Responses<object>> SummaryFirstDoseMonth(string code, DateTime date)
+        {
+            return _Core.SummaryFirstDoseMonth(code, date);
+        }
+
+        //[HttpGet]
+        //[Route("SecondDose")]
+        //public Task<Responses<object>> SecondDose()
+        //{
+        //    return _Core.ListSecondDose();
+        //}
+
+        [HttpGet]
         [Route("FirstDose")]
         public Task<Responses<object>> FirstDose()
         {
@@ -97,10 +120,39 @@ namespace AsessmentApiCovid.Controllers
         }
 
         [HttpGet]
-        [Route("GetArea")]
-        public Task<Responses<object>> GetArea()
+        [Route("GetNation")]
+        public Task<Responses<List<Nation>>> GetArea()
         {
-            return _Core.GetArea();
+            return _Core.Nation();
+        }
+
+
+        [HttpGet]
+        [Route("GetVaccinatedDataFirsDose")]
+        public async Task<Responses<List<VaccinatedData>>> vaccinatedDataFirstDose(string code)
+        {
+            return await _Core.VaccinatedFirstByNation(code);
+        }
+
+        [HttpGet]
+        [Route("GetVaccinatedDataSecondDose")]
+        public async Task<Responses<List<VaccinatedData>>> vaccinatedDataSecondDose(string code)
+        {
+            return await _Core.VaccinatedSecondByNation(code);
+        }
+
+        [HttpGet]
+        [Route("GetSummaryVaccinatedDataFirstDose")]
+        public async Task<Responses<object>> SummaryVaccinatedDatafirstDose(string code)
+        {
+            return await _Core.SummaryFirstDose(code);
+        }
+
+        [HttpGet]
+        [Route("GetSummaryVaccinatedDataSecondDose")]
+        public async Task<Responses<object>> SummaryVaccinatedDataSecondDose(string code)
+        {
+            return await _Core.SummarySecondDose(code);
         }
     }
 }

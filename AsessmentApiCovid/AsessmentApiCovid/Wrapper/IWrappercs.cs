@@ -17,5 +17,13 @@ namespace AsessmentApiCovid.Wrapper
         public IRepositoryVaccinatedSecondDoseDataWrapper VaccinatedSecondDoseData { get; }
 
         public IRepositoryVaccinatedSecondDoseNationWrapper VaccinatedSecondDoseNation { get; }
+
+        public IRepositoryNationWrapper VaccinatedNation { get; }
+
+        public IRepositoryVaccinatedFirstDoseWrapper VaccinatedFirstDose { get; }
+
+        public IRepositoryVaccinatedSecondDoseWrapper VaccinatedSecondDose { get; }
+
+       
     }
 }

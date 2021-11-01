@@ -21,7 +21,12 @@ namespace AsessmentApiCovid.Data
 
         public DBSet<VaccinatedSecondDoseData> VaccinatedSecondDoseNation_tbl { get; set; }
 
-        
+        public DBSet<VaccinatedData> VaccinatedFirstDose_tbl { get; set; }
+
+        public DBSet<VaccinatedData> VaccinatedSecondDose_tbl { get; set; }
+
+        public DBSet<Nation> Nation_tbl { get; set; }
+
     }
 
 

@@ -21,6 +21,10 @@ namespace AsessmentApiCovid.Wrapper
         IRepositoryVaccinatedSecondDoseDataWrapper _VaccinatedSecondDoseData;
 
         IRepositoryVaccinatedSecondDoseNationWrapper _VaccinatedSecondDoseNation;
+        IRepositoryNationWrapper _Nation;
+
+        IRepositoryVaccinatedFirstDoseWrapper _VaccinationFirstDose;
+        IRepositoryVaccinatedSecondDoseWrapper _VaccinationSecondDose;
 
         public Wrappers(ApplicationDbContext context)
         {
@@ -100,5 +104,54 @@ namespace AsessmentApiCovid.Wrapper
 
 
         }
+
+        public IRepositoryNationWrapper VaccinatedNation
+        {
+            get
+            {
+                if (_Nation == null)
+                {
+
+                    _Nation = new NationBase(_context);
+                }
+
+                return _Nation;
+            }
+
+
+        }
+
+        public IRepositoryVaccinatedFirstDoseWrapper VaccinatedFirstDose
+        {
+            get
+            {
+                if (_VaccinationFirstDose == null)
+                {
+
+                    _VaccinationFirstDose = new VaccinatedFirstDoseBase(_context);
+                }
+
+                return _VaccinationFirstDose;
+            }
+
+
+        }
+
+        public IRepositoryVaccinatedSecondDoseWrapper VaccinatedSecondDose
+        {
+            get
+            {
+                if (_VaccinationSecondDose == null)
+                {
+
+                    _VaccinationSecondDose = new VaccinatedSecondDoseBase(_context);
+                }
+
+                return _VaccinationSecondDose;
+            }
+
+
+        }
+
     }
 }

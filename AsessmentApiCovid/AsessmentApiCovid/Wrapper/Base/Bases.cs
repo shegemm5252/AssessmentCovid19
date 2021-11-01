@@ -33,4 +33,19 @@ namespace AsessmentApiCovid.Wrapper.Base
     {
         public VaccinatedSecondDoseNationBase(ApplicationDbContext context) : base(context, "VaccinatedSecondDoseNation.json") { }
     }
+
+    public class VaccinatedFirstDoseBase : Repository<VaccinatedData>, IRepositoryVaccinatedFirstDoseWrapper
+    {
+        public VaccinatedFirstDoseBase(ApplicationDbContext context) : base(context, "firstDosage.json") { }
+    }
+
+    public class VaccinatedSecondDoseBase : Repository<VaccinatedData>, IRepositoryVaccinatedSecondDoseWrapper
+    {
+        public VaccinatedSecondDoseBase(ApplicationDbContext context) : base(context, "secondDosage.json") { }
+    }
+
+    public class NationBase : Repository<Nation>, IRepositoryNationWrapper
+    {
+        public NationBase(ApplicationDbContext context) : base(context, "Nations.json") { }
+    }
 }

@@ -26,4 +26,16 @@ namespace AsessmentApiCovid.Wrapper.Interface
     public interface IRepositoryVaccinatedSecondDoseNationWrapper : IRepository<VaccinatedSecondDoseData>
     {
     }
+
+    public interface IRepositoryVaccinatedFirstDoseWrapper : IRepository<VaccinatedData>
+    {
+    }
+
+    public interface IRepositoryVaccinatedSecondDoseWrapper : IRepository<VaccinatedData>
+    {
+    }
+
+    public interface IRepositoryNationWrapper : IRepository<Nation>
+    {
+    }
 }

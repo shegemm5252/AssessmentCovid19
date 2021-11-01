@@ -1,4 +1,5 @@
 ﻿using AsessmentApiCovid.Data;
+using AsessmentApiCovid.Data.Context;
 using AsessmentApiCovid.DTO;
 using AsessmentApiCovid.IServices;
 using AsessmentApiCovid.Wrapper;
@@ -12,10 +13,10 @@ namespace AsessmentApiCovid.Services
 {
     public class Core : ICore
     {
-        
+
         IWrappers _wrapper;
-      
-        
+
+
         private IConfiguration _config;
         public Core(IWrappers wrapper, IConfiguration config)
         {
@@ -27,14 +28,14 @@ namespace AsessmentApiCovid.Services
         {
             var area = _wrapper.VaccinatedArea.GetAll();
 
-            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", area); 
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", area);
         }
 
         public async Task<Responses<object>> ListFirstDose()
         {
             var list = _wrapper.VaccinatedFirstDoseData.GetAll();
 
-            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", list); 
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", list);
         }
 
         public async Task<Responses<object>> ListSecondDose()
@@ -44,22 +45,25 @@ namespace AsessmentApiCovid.Services
             return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", list);
         }
 
-        public async Task<Responses<object>> SummaryDailyFirstDose(DateTime date)
+        public async Task<Responses<object>> SummaryDailyFirstDose(string code, DateTime date)
         {
-            var item = _wrapper.VaccinatedFirstDoseData.FindByConditionAsync(x => DateTime.Parse(x.date).Date == date).FirstOrDefault();
+            var item = _wrapper.VaccinatedFirstDose.FindByConditionAsync(x => DateTime.Parse(x.date).Date == date && x.areaCode.Equals(code)).FirstOrDefault();
 
-           if(item !=  null){
+            if (item != null)
+            {
                 return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = item.cumPeopleVaccinatedFirstDoseByPublishDate });
-            } else {
+            }
+            else
+            {
                 return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = 0 });
             }
 
-           
+
         }
 
-        public async Task<Responses<object>> SummaryDailySecondDose(DateTime date)
+        public async Task<Responses<object>> SummaryDailySecondDose(string code, DateTime date)
         {
-            var item = _wrapper.VaccinatedSecondDoseData.FindByConditionAsync(x => DateTime.Parse(x.date).Date == date).FirstOrDefault();
+            var item = _wrapper.VaccinatedSecondDoseData.FindByConditionAsync(x => DateTime.Parse(x.date).Date == date && x.areaCode.Equals(code)).FirstOrDefault();
 
             if (item != null)
             {
@@ -82,7 +86,7 @@ namespace AsessmentApiCovid.Services
                 total += item.cumPeopleVaccinatedFirstDoseByPublishDate;
             }
 
-            return  Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = total }); 
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = total });
         }
 
         public async Task<Responses<object>> SummaryFirstDoseByNation(string nationID)
@@ -90,7 +94,8 @@ namespace AsessmentApiCovid.Services
             var list = _wrapper.VaccinatedFirstDoseNation.FindByConditionAsync(x => x.areaCode.Equals(nationID)).ToList();
 
             int total = 0;
-            foreach(var item in list){
+            foreach (var item in list)
+            {
                 total += item.cumPeopleVaccinatedFirstDoseByPublishDate;
             }
 
@@ -117,7 +122,7 @@ namespace AsessmentApiCovid.Services
                 total += item.cumPeopleVaccinatedSecondDoseByPublishDate;
             }
             return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { SecondDoseSummary = total });
-            
+
         }
 
         public async Task<Responses<object>> SummarySecondDose()
@@ -145,5 +150,89 @@ namespace AsessmentApiCovid.Services
 
             return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { SecondNationDoseSummary = total });
         }
+
+        public async Task<Responses<List<Nation>>> Nation()
+        {
+            var list = _wrapper.VaccinatedNation.GetAll();
+
+            return Responses<List<Nation>>.GetResponses("00", "Success", "Fetch Successfully", list);
+        }
+
+        public async Task<Responses<List<VaccinatedData>>> VaccinatedFirstByNation(string code)
+        {
+            var list = _wrapper.VaccinatedFirstDose.FindByConditionAsync(x => x.areaCode.Equals(code)).ToList();
+
+            return Responses<List<VaccinatedData>>.GetResponses("00", "Success", "Fetch Successfully", list);
+        }
+
+        public async Task<Responses<List<VaccinatedData>>> VaccinatedSecondByNation(string code)
+        {
+            var list = _wrapper.VaccinatedSecondDose.FindByConditionAsync(x => x.areaCode.Equals(code)).ToList();
+
+            return Responses<List<VaccinatedData>>.GetResponses("00", "Success", "Fetch Successfully", list);
+        }
+
+
+        public async Task<Responses<object>> SummaryFirstDose(string code)
+        {
+            var summaryList = (await VaccinatedFirstByNation(code)).Detail;
+
+            int total = 0;
+            foreach (var item in summaryList)
+            {
+                total += item.cumPeopleVaccinatedFirstDoseByPublishDate??0;
+            }
+
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = total });
+        }
+
+        public async Task<Responses<object>> SummaryFirstDoseMonth(string code, DateTime date)
+        {
+            var summaryList = _wrapper.VaccinatedFirstDose.FindByConditionAsync(x => x.areaCode.Equals(code)).ToList();
+
+            var data = summaryList.Where(x => DateTime.Parse(x.date).Month == date.Month).ToList();
+
+            int total = 0;
+
+            foreach (var item in data)
+            {
+                total += item.cumPeopleVaccinatedFirstDoseByPublishDate ?? 0;
+            }
+
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { FirstDoseSummary = total });
+        }
+
+        public async Task<Responses<object>> SummarySecondDoseMonth(string code, DateTime date)
+        {
+            var summaryList = _wrapper.VaccinatedSecondDose.FindByConditionAsync(x => x.areaCode.Equals(code)).ToList();
+            
+
+            var data = summaryList.Where(x => DateTime.Parse(x.date).Month == date.Month).ToList();
+
+            int total = 0;
+            foreach (var item in data)
+            {
+                total += item.cumPeopleVaccinatedSecondDoseByPublishDate ?? 0;
+            }
+
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { SecondDoseSummary = total });
+
+            
+        }
+
+        public async Task<Responses<object>> SummarySecondDose(string code)
+        {
+            var summaryList = (await VaccinatedSecondByNation(code)).Detail;
+
+            int total = 0;
+            foreach (var item in summaryList)
+            {
+                total += item.cumPeopleVaccinatedSecondDoseByPublishDate??0;
+            }
+
+            return Responses<object>.GetResponses("00", "Success", "Fetch Successfully", new { SecondDoseSummary = total });
+        }
+
+
     }
 }
